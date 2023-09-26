@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            background-image: url('https://www.irasutoya.com/2019/08/blog-post_19.html'); /* あなたの動物の画像のURLに置き換えてください */
+            background-size: cover;
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .chat-box {
+            border: 2px solid yellow;
+            border-radius: 50%; /* ひまわり型のチャットボックス */
+            width: 300px;
+            height: 300px;
+            overflow: auto;
+            padding: 20px;
+            background-color: rgba(255, 255, 255, 0.8); /* 半透明の白色の背景 */
+        }
+        @media (max-width: 600px) {
+            .chat-box {
+                width: 80%;
+                height: auto;
+                border-radius: 15px; /* スマートフォンでは少し丸みを持たせる */
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="chat-box">
+        <!-- チャットの内容 -->
+        ここにチャットの内容を入れてください。
+    </div>
+    <!-- 他のコンテンツ -->
+</body>
+</html>
